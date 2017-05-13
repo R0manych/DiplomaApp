@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiplomaApp", "DiplomaApp\DiplomaApp.csproj", "{94D7D23A-54E8-4584-8700-CA6D9BC80EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib", "MathLib\MathLib.csproj", "{B7D55C29-6DAC-4382-B632-85687F17CFB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibUnitTest", "MathLibUnitTest\MathLibUnitTest.csproj", "{7F27D5B4-4D72-4F86-9A77-459E9F21F111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94D7D23A-54E8-4584-8700-CA6D9BC80EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D7D23A-54E8-4584-8700-CA6D9BC80EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D7D23A-54E8-4584-8700-CA6D9BC80EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D7D23A-54E8-4584-8700-CA6D9BC80EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D55C29-6DAC-4382-B632-85687F17CFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D55C29-6DAC-4382-B632-85687F17CFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D55C29-6DAC-4382-B632-85687F17CFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D55C29-6DAC-4382-B632-85687F17CFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F27D5B4-4D72-4F86-9A77-459E9F21F111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F27D5B4-4D72-4F86-9A77-459E9F21F111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F27D5B4-4D72-4F86-9A77-459E9F21F111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F27D5B4-4D72-4F86-9A77-459E9F21F111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
