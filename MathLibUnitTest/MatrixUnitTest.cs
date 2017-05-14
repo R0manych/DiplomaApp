@@ -46,5 +46,35 @@ namespace MathLibUnitTest
                 }
             }
         }
+
+        [TestMethod]
+        public void InverseMatrixTest()
+        {
+            double[,] testArray = { { 2, 5, 7}, { 6, 3, 4 }, { 5, -2, 3 } };
+            var matrix = new Matrix<double>(3, 3);
+            matrix.Fill(testArray);
+
+            matrix = Matrix<double>.Inverse(matrix);
+
+            double[,] resultArray = { { 1, -1, 1 }, { -38, 41, -34 }, { 27, -29, 24 } };
+            for (var i = 0; i < resultArray.GetLength(0); i++)
+            {
+                for (var j = 0; j < resultArray.GetLength(1); j++)
+                {
+                    Assert.AreEqual(resultArray[i, j], matrix.Array[i, j]);
+                }
+            }
+        }
+
+        [TestMethod]
+        public void DeterminantTest()
+        {
+            double[,] testArray = { { 1, -2, 3 }, {4, 0, 6 }, {-7, 8, 9 } };
+            var resultDet = 204;
+            var matrix = new Matrix<double>(3, 3);
+            matrix.Fill(testArray);
+            var determinant = matrix.Determinant();
+            Assert.AreEqual(resultDet, determinant);
+        }
     }
 }

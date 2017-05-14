@@ -6,3 +6,11 @@ D:\Projects\GitProjects\DiplomaApp\DiplomaApp\bin\Debug\DiplomaApp.exe
 D:\Projects\GitProjects\DiplomaApp\DiplomaApp\bin\Debug\DiplomaApp.pdb
 D:\Projects\GitProjects\DiplomaApp\DiplomaApp\obj\Debug\DiplomaApp.exe
 D:\Projects\GitProjects\DiplomaApp\DiplomaApp\obj\Debug\DiplomaApp.pdb
+D:\Projects\Git Projects\DiplomaApp\DiplomaApp\bin\Debug\DiplomaApp.exe.config
+D:\Projects\Git Projects\DiplomaApp\DiplomaApp\bin\Debug\DiplomaApp.exe
+D:\Projects\Git Projects\DiplomaApp\DiplomaApp\bin\Debug\DiplomaApp.pdb
+D:\Projects\Git Projects\DiplomaApp\DiplomaApp\obj\Debug\DiplomaApp.csprojResolveAssemblyReference.cache
+D:\Projects\Git Projects\DiplomaApp\DiplomaApp\obj\Debug\DiplomaApp.Properties.Resources.resources
+D:\Projects\Git Projects\DiplomaApp\DiplomaApp\obj\Debug\DiplomaApp.csproj.GenerateResource.Cache
+D:\Projects\Git Projects\DiplomaApp\DiplomaApp\obj\Debug\DiplomaApp.exe
+D:\Projects\Git Projects\DiplomaApp\DiplomaApp\obj\Debug\DiplomaApp.pdb
