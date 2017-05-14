@@ -1,0 +1,17 @@
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\MathLibUnitTest.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\MathLibUnitTest.pdb
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\MathLib.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\MathLib.pdb
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.csprojResolveAssemblyReference.cache
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.pdb

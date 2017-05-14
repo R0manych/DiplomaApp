@@ -1,0 +1,5 @@
+D:\Projects\GitProjects\DiplomaApp\MathLib\bin\Debug\MathLib.dll
+D:\Projects\GitProjects\DiplomaApp\MathLib\bin\Debug\MathLib.pdb
+D:\Projects\GitProjects\DiplomaApp\MathLib\obj\Debug\MathLib.csprojResolveAssemblyReference.cache
+D:\Projects\GitProjects\DiplomaApp\MathLib\obj\Debug\MathLib.dll
+D:\Projects\GitProjects\DiplomaApp\MathLib\obj\Debug\MathLib.pdb
