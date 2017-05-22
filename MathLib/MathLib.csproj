@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataStructures\Polynomial.cs" />
     <Compile Include="MathProviders\DoubleMathProvider.cs" />
     <Compile Include="MathProviders\IntMathProvider.cs" />
     <Compile Include="MathProviders\MathProvider.cs" />

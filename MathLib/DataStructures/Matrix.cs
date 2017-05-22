@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace MathLib.DataStructures
 {
-    public class Matrix<T>
+    public class Matrix<T> : ICloneable
     {
         static MathProvider<T> _math;
 
-        public T[,] _array;
+        private T[,] _array;
 
         public T[,] Array
         {
@@ -94,11 +94,27 @@ namespace MathLib.DataStructures
         }
 
         /// <summary>
+        /// Умножение матрицы на значение value
+        /// </summary>
+        /// <param name="value"></param>
+        public void MultiplyByValue(int value)
+        {
+            for (var i = 0; i < GetLength(0); i++)
+            {
+                for (var j = 0; j < GetLength(1); j++)
+                {
+                    _array[i, j] = _math.MultiplyByKoef(value, _array[i, j]);
+                }
+            }
+        }
+
+        /// <summary>
         /// Возвращает матрицу обратную данной. Обратная матрица существует только для квадратных, невырожденных, матриц. round - количество цифр после запятой в обратной матрице.
         /// </summary>
-        public static Matrix<double> Inverse(Matrix<double> matr, uint round = 0)
+        public static Matrix<T> Inverse(Matrix<T> matr)
         {
-            if (matr.GetLength(0) != matr.GetLength(1)) throw new ArgumentException("Обратная матрица существует только для квадратных, невырожденных, матриц.");
+            throw new NotImplementedException();
+            /*if (matr.GetLength(0) != matr.GetLength(1)) throw new ArgumentException("Обратная матрица существует только для квадратных, невырожденных, матриц.");
             Matrix<double> matrix = new Matrix<double>(matr.GetLength(0), matr.GetLength(1)); //Делаем копию исходной матрицы
             double determinant = Determinant(); //Находим детерминант
 
@@ -113,7 +129,7 @@ namespace MathLib.DataStructures
                     matrix[t, i] = round == 0 ? (1 / determinant) * tmp.Determinant() : Math.Round(((1 / determinant) * tmp.Determinant()));
                 }
             }
-            return matrix;
+            return matrix;*/
         }
 
         #region Determinant (вычисление определителя матрицы по Гауссу)
@@ -147,6 +163,23 @@ namespace MathLib.DataStructures
                 }
             }
             return resultMatrix;
+        }
+
+        public object Clone()
+        {
+            var cloneMatr = new Matrix<T>(GetLength(0), GetLength(1));
+            cloneMatr.Fill(_array);
+            return cloneMatr;
+        }       
+
+        public T[] GetRow(int index)
+        {
+            var row = new T[GetLength(0)];
+            for (var i = 0; i < GetLength(1); i++)
+            {
+                row[i] = _array[index, i];
+            }
+            return row;
         }
     }
 }

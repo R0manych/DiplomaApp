@@ -49,5 +49,34 @@ namespace MathLib.MathProviders
         {
             return Add(a, Negate(b));
         }
+
+        /// <summary>
+        /// Умножение на коэффициент
+        /// </summary>
+        /// <param name="k"></param>
+        /// <param name="a"></param>
+        /// <returns></returns>
+        public abstract T MultiplyByKoef(int k, T a);
+
+        /// <summary>
+        /// Извлечение модуля
+        /// </summary>
+        /// <param name="a"></param>
+        /// <returns></returns>
+        public abstract T Abs(T a);
+
+        /// <summary>
+        /// Знак числа
+        /// </summary>
+        /// <param name="a"></param>
+        /// <returns></returns>
+        public abstract bool GreaterZero(T a);
+
+        public abstract T Sqrt(T a);
+
+        public virtual T Sqr(T a)
+        {
+            return Multiply(a, a);
+        }
     }
 }
