@@ -5,7 +5,6 @@ D:\Projects\GitProjects\DiplomaApp\MathLib\obj\Debug\MathLib.dll
 D:\Projects\GitProjects\DiplomaApp\MathLib\obj\Debug\MathLib.pdb
 D:\Projects\Git Projects\DiplomaApp\MathLib\bin\Debug\MathLib.dll
 D:\Projects\Git Projects\DiplomaApp\MathLib\bin\Debug\MathLib.pdb
-D:\Projects\Git Projects\DiplomaApp\MathLib\obj\Debug\MathLib.csprojResolveAssemblyReference.cache
 D:\Projects\Git Projects\DiplomaApp\MathLib\obj\Debug\MathLib.dll
 D:\Projects\Git Projects\DiplomaApp\MathLib\obj\Debug\MathLib.pdb
 D:\Projects\Git Projects\DiplomaApp\MathLib\bin\Debug\MathNet.Numerics.dll

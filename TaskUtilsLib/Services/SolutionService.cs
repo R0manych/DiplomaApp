@@ -13,7 +13,6 @@ namespace TaskUtilsLib.Services
     public class SolutionService : ISolutionService<double>
     {
         public InputData<double> InputData;
-        public OutputData<double> OutputData;
 
         private SolutionData<double> SolutionData;
 
@@ -22,8 +21,9 @@ namespace TaskUtilsLib.Services
         public const int MATRIX_DIMENSION = 2;
         public const int VECTOR_DIMENSION = 1;
 
-        public SolutionService()
-        {            
+        public SolutionService(InputData<double> InputData)
+        {
+            this.InputData = InputData;
             SetData();
         }
 
@@ -39,7 +39,7 @@ namespace TaskUtilsLib.Services
         }
 
 
-        public void Solve()
+        public OutputData<double> Solve()
         {
             var matrA = new Matrix<double>(MATRIX_DIMENSION, MATRIX_DIMENSION);
             double[,] arrayA = { { SolutionData.X2, SolutionData.Y2 },
@@ -75,7 +75,7 @@ namespace TaskUtilsLib.Services
             polynomial.Solve();
 
             var r1 = polynomial.Result.R1;
-            OutputData = new OutputData<double>(r1, _mathProvider.Subtract(_mathProvider.Add(koefA, _mathProvider.Multiply(koefB, r1)), InputData.X1), _mathProvider.Subtract(_mathProvider.Add(koefC, _mathProvider.Multiply(koefD, r1)), InputData.Y1));
+            return new OutputData<double>(r1, _mathProvider.Subtract(_mathProvider.Add(koefA, _mathProvider.Multiply(koefB, r1)), InputData.X1), _mathProvider.Subtract(_mathProvider.Add(koefC, _mathProvider.Multiply(koefD, r1)), InputData.Y1));
         }
     }
 }
