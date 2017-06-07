@@ -57,6 +57,8 @@ namespace TaskUtilsLib.Services
             double[,] arrayD = { { _mathProvider.Negate(InputData.M2_1) },
                            { _mathProvider.Negate(InputData.M3_1) }
             };
+            matrD.Fill(arrayD);
+
             var transporatedMatrA = (Matrix<double>)matrA.Clone();
             transporatedMatrA.Transporate();
             var tempMatr = (Matrix<double>.Inverse(transporatedMatrA * matrA) * transporatedMatrA);

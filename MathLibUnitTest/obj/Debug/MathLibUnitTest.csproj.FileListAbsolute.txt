@@ -32,3 +32,5 @@ D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualSt
 D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.csprojResolveAssemblyReference.cache
 D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.dll
 D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.pdb
+D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\bin\Debug\TaskUtilsLib.dll
+D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\bin\Debug\TaskUtilsLib.pdb

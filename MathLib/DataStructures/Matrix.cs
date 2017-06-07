@@ -111,35 +111,57 @@ namespace MathLib.DataStructures
         /// <summary>
         /// Возвращает матрицу обратную данной. Обратная матрица существует только для квадратных, невырожденных, матриц. round - количество цифр после запятой в обратной матрице.
         /// </summary>
-        public static Matrix<T> Inverse(Matrix<T> matr)
+        public static Matrix<double> Inverse(Matrix<double> matr)
         {
-            throw new NotImplementedException();
-            /*if (matr.GetLength(0) != matr.GetLength(1)) throw new ArgumentException("Обратная матрица существует только для квадратных, невырожденных, матриц.");
+            if (matr.GetLength(0) != matr.GetLength(1))
+                throw new ArgumentException("Обратная матрица существует только для квадратных, невырожденных, матриц.");
             Matrix<double> matrix = new Matrix<double>(matr.GetLength(0), matr.GetLength(1)); //Делаем копию исходной матрицы
-            double determinant = Determinant(); //Находим детерминант
+            double determinant = matr.Determinant; //Находим детерминант
 
-            if (determinant == 0) return matrix; //Если определитель == 0 - матрица вырожденная
+            if (determinant == 0) return matr; //Если определитель == 0 - матрица вырожденная
 
             for (int i = 0; i < matr.GetLength(0); i++)
             {
                 for (int t = 0; t < matr.GetLength(1); t++)
                 {
+
                     Matrix<double> tmp = matr.Exclude(i, t);  //получаем матрицу без строки i и столбца t
                                                               //(1 / determinant) * Determinant(tmp) - формула поределения элемента обратной матрицы
-                    matrix[t, i] = round == 0 ? (1 / determinant) * tmp.Determinant() : Math.Round(((1 / determinant) * tmp.Determinant()));
+                    
+                    matrix[t, i] = Math.Round(Math.Pow(-1, i + t) * ((1 / determinant) * tmp.Determinant), 4);
                 }
             }
-            return matrix;*/
+            return matrix;
         }
 
         #region Determinant (вычисление определителя матрицы по Гауссу)
 
         /// <summary>
-        /// Вычисление определителя матрицы методом Гаусса (Приводим матрицу к треугольному виду и перемножаем главную диагональ).
+        /// Вычисление определителя матрицы
         /// </summary>
-        public double Determinant()
+        public double Determinant
         {
-            throw new NotImplementedException();
+            get
+            {
+                if (GetLength(0) == 1)
+                {
+                    return Convert.ToDouble(_array[0, 0]);
+                }
+                if (GetLength(0) == 2)
+                {
+                    return Determinant2();
+                }
+                throw new NotImplementedException();
+            }
+        }
+
+        /// <summary>
+        /// Вычисление определителя для матрицы 2х2
+        /// </summary>
+        /// <returns></returns>
+        private double Determinant2()
+        {
+            return Convert.ToDouble(_math.Subtract(_math.Multiply(_array[0, 0], _array[1,1]), _math.Multiply(_array[1, 0], _array[0, 1])));
         }
         #endregion
 
