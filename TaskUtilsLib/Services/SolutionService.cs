@@ -32,7 +32,7 @@ namespace TaskUtilsLib.Services
             var x2 = _mathProvider.Subtract(InputData.X2, InputData.X1);
             var x3 = _mathProvider.Subtract(InputData.X3, InputData.X1);
             var y2 = _mathProvider.Subtract(InputData.Y2, InputData.Y1);
-            var y3 = _mathProvider.Subtract(InputData.Y2, InputData.Y1);
+            var y3 = _mathProvider.Subtract(InputData.Y3, InputData.Y1);
             var k2 = _mathProvider.Add(_mathProvider.Multiply(x2, x2), _mathProvider.Multiply(y2, y2));
             var k3 = _mathProvider.Add(_mathProvider.Multiply(x3, x3), _mathProvider.Multiply(y3, y3));
             SolutionData = new SolutionData<double>(x2, x3, y2, y3, k2, k3);
@@ -62,6 +62,7 @@ namespace TaskUtilsLib.Services
             var transporatedMatrA = (Matrix<double>)matrA.Clone();
             transporatedMatrA.Transporate();
             var tempMatr = (Matrix<double>.Inverse(transporatedMatrA * matrA) * transporatedMatrA);
+            tempMatr.MultiplyByValue(0.5);
 
             var firstKoefMatr = tempMatr * matrC;
             var secKoefMatr = tempMatr * matrD;
@@ -72,12 +73,12 @@ namespace TaskUtilsLib.Services
             var koefD = secKoefMatr.GetRow(1)[0];
 
             var polynomial = new Polynomial<double>(_mathProvider.Add(_mathProvider.Sqr(koefB), _mathProvider.Sqr(koefD)) - 1,
-                _mathProvider.Add(_mathProvider.Multiply(koefA, koefB), _mathProvider.Multiply(koefC, koefD)),
+                _mathProvider.MultiplyByKoef(2, _mathProvider.Add(_mathProvider.Multiply(koefA, koefB), _mathProvider.Multiply(koefC, koefD))),
                 _mathProvider.Add(_mathProvider.Sqr(koefA), _mathProvider.Sqr(koefC)));
             polynomial.Solve();
 
-            var r1 = polynomial.Result.R1;
-            return new OutputData<double>(r1, _mathProvider.Subtract(_mathProvider.Add(koefA, _mathProvider.Multiply(koefB, r1)), InputData.X1), _mathProvider.Subtract(_mathProvider.Add(koefC, _mathProvider.Multiply(koefD, r1)), InputData.Y1));
+            var r1 = polynomial.Result.R1 > polynomial.Result.R2 ? polynomial.Result.R1 : polynomial.Result.R2;
+            return new OutputData<double>(r1, _mathProvider.Add(_mathProvider.Add(koefA, _mathProvider.Multiply(koefB, r1)), InputData.X1), _mathProvider.Add(_mathProvider.Add(koefC, _mathProvider.Multiply(koefD, r1)), InputData.Y1));
         }
     }
 }
