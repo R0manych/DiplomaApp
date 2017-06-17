@@ -44,6 +44,10 @@
             this.labelY1 = new System.Windows.Forms.Label();
             this.labelX3 = new System.Windows.Forms.Label();
             this.labelX2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownM2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownM3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownY3)).BeginInit();
@@ -63,7 +67,7 @@
             0,
             0,
             131072});
-            this.numericUpDownM2.Location = new System.Drawing.Point(38, 113);
+            this.numericUpDownM2.Location = new System.Drawing.Point(38, 262);
             this.numericUpDownM2.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -83,7 +87,7 @@
             0,
             0,
             131072});
-            this.numericUpDownM3.Location = new System.Drawing.Point(202, 113);
+            this.numericUpDownM3.Location = new System.Drawing.Point(227, 262);
             this.numericUpDownM3.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -103,7 +107,7 @@
             0,
             0,
             131072});
-            this.numericUpDownY3.Location = new System.Drawing.Point(373, 56);
+            this.numericUpDownY3.Location = new System.Drawing.Point(38, 185);
             this.numericUpDownY3.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -123,7 +127,7 @@
             0,
             0,
             131072});
-            this.numericUpDownY2.Location = new System.Drawing.Point(202, 56);
+            this.numericUpDownY2.Location = new System.Drawing.Point(227, 108);
             this.numericUpDownY2.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -143,7 +147,7 @@
             0,
             0,
             131072});
-            this.numericUpDownY1.Location = new System.Drawing.Point(38, 56);
+            this.numericUpDownY1.Location = new System.Drawing.Point(227, 36);
             this.numericUpDownY1.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -163,7 +167,7 @@
             0,
             0,
             131072});
-            this.numericUpDownX3.Location = new System.Drawing.Point(373, 6);
+            this.numericUpDownX3.Location = new System.Drawing.Point(227, 187);
             this.numericUpDownX3.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -183,7 +187,7 @@
             0,
             0,
             131072});
-            this.numericUpDownX2.Location = new System.Drawing.Point(202, 6);
+            this.numericUpDownX2.Location = new System.Drawing.Point(38, 108);
             this.numericUpDownX2.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -203,7 +207,7 @@
             0,
             0,
             131072});
-            this.numericUpDownX1.Location = new System.Drawing.Point(38, 6);
+            this.numericUpDownX1.Location = new System.Drawing.Point(38, 36);
             this.numericUpDownX1.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -218,7 +222,7 @@
             // 
             this.labelX1.AutoSize = true;
             this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelX1.Location = new System.Drawing.Point(3, 8);
+            this.labelX1.Location = new System.Drawing.Point(3, 38);
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(29, 20);
             this.labelX1.TabIndex = 18;
@@ -228,7 +232,7 @@
             // 
             this.labelM3.AutoSize = true;
             this.labelM3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelM3.Location = new System.Drawing.Point(167, 115);
+            this.labelM3.Location = new System.Drawing.Point(192, 264);
             this.labelM3.Name = "labelM3";
             this.labelM3.Size = new System.Drawing.Size(31, 20);
             this.labelM3.TabIndex = 19;
@@ -238,7 +242,7 @@
             // 
             this.labelM2.AutoSize = true;
             this.labelM2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelM2.Location = new System.Drawing.Point(3, 115);
+            this.labelM2.Location = new System.Drawing.Point(5, 264);
             this.labelM2.Name = "labelM2";
             this.labelM2.Size = new System.Drawing.Size(31, 20);
             this.labelM2.TabIndex = 20;
@@ -248,7 +252,7 @@
             // 
             this.labelY3.AutoSize = true;
             this.labelY3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelY3.Location = new System.Drawing.Point(338, 58);
+            this.labelY3.Location = new System.Drawing.Point(192, 187);
             this.labelY3.Name = "labelY3";
             this.labelY3.Size = new System.Drawing.Size(29, 20);
             this.labelY3.TabIndex = 21;
@@ -258,7 +262,7 @@
             // 
             this.labelY2.AutoSize = true;
             this.labelY2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelY2.Location = new System.Drawing.Point(167, 58);
+            this.labelY2.Location = new System.Drawing.Point(192, 110);
             this.labelY2.Name = "labelY2";
             this.labelY2.Size = new System.Drawing.Size(29, 20);
             this.labelY2.TabIndex = 22;
@@ -268,7 +272,7 @@
             // 
             this.labelY1.AutoSize = true;
             this.labelY1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelY1.Location = new System.Drawing.Point(3, 58);
+            this.labelY1.Location = new System.Drawing.Point(192, 38);
             this.labelY1.Name = "labelY1";
             this.labelY1.Size = new System.Drawing.Size(29, 20);
             this.labelY1.TabIndex = 23;
@@ -278,7 +282,7 @@
             // 
             this.labelX3.AutoSize = true;
             this.labelX3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelX3.Location = new System.Drawing.Point(338, 8);
+            this.labelX3.Location = new System.Drawing.Point(5, 187);
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(29, 20);
             this.labelX3.TabIndex = 24;
@@ -288,16 +292,60 @@
             // 
             this.labelX2.AutoSize = true;
             this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelX2.Location = new System.Drawing.Point(167, 8);
+            this.labelX2.Location = new System.Drawing.Point(4, 108);
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(29, 20);
             this.labelX2.TabIndex = 25;
             this.labelX2.Text = "X2";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(4, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(281, 20);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "Координаты первого опорного узла";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(4, 77);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(281, 20);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "Координаты второго опорного узла";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(5, 149);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(290, 20);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "Координаты третьего опорного узла";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(5, 228);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(231, 20);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Разница между диапазонами";
+            // 
             // InputDataControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.labelX2);
             this.Controls.Add(this.labelX3);
             this.Controls.Add(this.labelY1);
@@ -315,7 +363,7 @@
             this.Controls.Add(this.numericUpDownX2);
             this.Controls.Add(this.numericUpDownX1);
             this.Name = "InputDataControl";
-            this.Size = new System.Drawing.Size(503, 155);
+            this.Size = new System.Drawing.Size(363, 304);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownM2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownM3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownY3)).EndInit();
@@ -347,5 +395,9 @@
         private System.Windows.Forms.Label labelY1;
         private System.Windows.Forms.Label labelX3;
         private System.Windows.Forms.Label labelX2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

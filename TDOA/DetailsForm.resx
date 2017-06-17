@@ -117,8 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ffox2aJy57E" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\ffox2ajy57e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>(x, y) - координаты целевого узла
+(x1,y1) - координаты первого опорного узла
+(x2,y2) - координаты второго опорного узла
+(x3,y3) - координаты третьего опорного узла
+r1 - дистанция между целевым узлом и первым опорным
+mi,1- разница между диапазонами; mi,1 = ri - r1
+</value>
   </data>
 </root>

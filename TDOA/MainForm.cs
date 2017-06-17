@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TaskUtilsLib.DataStructures;
 using TaskUtilsLib.Services;
 
 namespace TDOA
@@ -16,7 +17,11 @@ namespace TDOA
         public MainForm()
         {
             InitializeComponent();
+            IsDataSet = false;
         }
+
+        InputData<double> _inputData;
+        public bool IsDataSet { get; set; }
 
         private void buttonClose_Click(object sender, EventArgs e)
         {
@@ -27,10 +32,44 @@ namespace TDOA
 
         private void buttonSolve_Click(object sender, EventArgs e)
         {
-            var input = inputDataControl1.LoadData();
+            /*var input = inputDataControl1.LoadData();
             _solutionService = new SolutionService(input);
             var output = _solutionService.Solve();
-            outputDataControl1.SetData(output);
+            outputDataControl1.SetData(output);*/
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var detailsForm = new DetailsForm();
+            detailsForm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var inputForm = new InputForm();
+            
+            inputForm.ShowDialog(this);
+            
+            if (inputForm.IsSaved)
+            {
+                _inputData = inputForm.InputData;
+                IsDataSet = true;
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (!IsDataSet)
+            {
+                MessageBox.Show("Не введены данные");
+            }
+            else
+            {
+                _solutionService = new SolutionService(_inputData);
+                var outputdata = _solutionService.Solve();
+                var outputForm = new OutputForm(outputdata);
+                outputForm.Show();                
+            }
         }
     }
 }

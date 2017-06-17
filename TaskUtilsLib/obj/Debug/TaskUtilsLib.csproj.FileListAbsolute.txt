@@ -12,3 +12,10 @@ D:\Roman\GitHub\DiplomaApp\TaskUtilsLib\bin\Debug\MathLib.pdb
 D:\Roman\GitHub\DiplomaApp\TaskUtilsLib\obj\Debug\TaskUtilsLib.csprojResolveAssemblyReference.cache
 D:\Roman\GitHub\DiplomaApp\TaskUtilsLib\obj\Debug\TaskUtilsLib.dll
 D:\Roman\GitHub\DiplomaApp\TaskUtilsLib\obj\Debug\TaskUtilsLib.pdb
+D:\Projects\GitProjects\DiplomaApp\TaskUtilsLib\bin\Debug\TaskUtilsLib.dll
+D:\Projects\GitProjects\DiplomaApp\TaskUtilsLib\bin\Debug\TaskUtilsLib.pdb
+D:\Projects\GitProjects\DiplomaApp\TaskUtilsLib\bin\Debug\MathLib.dll
+D:\Projects\GitProjects\DiplomaApp\TaskUtilsLib\bin\Debug\MathLib.pdb
+D:\Projects\GitProjects\DiplomaApp\TaskUtilsLib\obj\Debug\TaskUtilsLib.csprojResolveAssemblyReference.cache
+D:\Projects\GitProjects\DiplomaApp\TaskUtilsLib\obj\Debug\TaskUtilsLib.dll
+D:\Projects\GitProjects\DiplomaApp\TaskUtilsLib\obj\Debug\TaskUtilsLib.pdb

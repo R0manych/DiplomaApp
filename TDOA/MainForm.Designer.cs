@@ -28,67 +28,90 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.outputDataControl1 = new TDOA.OutputDataControl();
-            this.buttonSolve = new System.Windows.Forms.Button();
             this.buttonClose = new System.Windows.Forms.Button();
-            this.inputDataControl1 = new TDOA.InputDataControl();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // outputDataControl1
-            // 
-            this.outputDataControl1.Location = new System.Drawing.Point(11, 190);
-            this.outputDataControl1.Name = "outputDataControl1";
-            this.outputDataControl1.Size = new System.Drawing.Size(499, 49);
-            this.outputDataControl1.TabIndex = 1;
-            // 
-            // buttonSolve
-            // 
-            this.buttonSolve.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSolve.Location = new System.Drawing.Point(12, 245);
-            this.buttonSolve.Name = "buttonSolve";
-            this.buttonSolve.Size = new System.Drawing.Size(123, 42);
-            this.buttonSolve.TabIndex = 2;
-            this.buttonSolve.Text = "Solve";
-            this.buttonSolve.UseVisualStyleBackColor = true;
-            this.buttonSolve.Click += new System.EventHandler(this.buttonSolve_Click);
             // 
             // buttonClose
             // 
             this.buttonClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClose.Location = new System.Drawing.Point(370, 245);
+            this.buttonClose.Location = new System.Drawing.Point(743, 550);
             this.buttonClose.Name = "buttonClose";
-            this.buttonClose.Size = new System.Drawing.Size(123, 42);
+            this.buttonClose.Size = new System.Drawing.Size(135, 42);
             this.buttonClose.TabIndex = 3;
-            this.buttonClose.Text = "Close";
+            this.buttonClose.Text = "Закрыть";
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
-            // inputDataControl1
+            // button1
             // 
-            this.inputDataControl1.Location = new System.Drawing.Point(11, 12);
-            this.inputDataControl1.Name = "inputDataControl1";
-            this.inputDataControl1.Size = new System.Drawing.Size(503, 155);
-            this.inputDataControl1.TabIndex = 4;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(741, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(137, 42);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Обозначения";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Location = new System.Drawing.Point(741, 60);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(137, 42);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Ввести данные";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button3.Location = new System.Drawing.Point(741, 108);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(137, 42);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "Расчитать";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TDOA.Properties.Resources.ffox2aJy57E;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(723, 532);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(526, 304);
-            this.Controls.Add(this.inputDataControl1);
+            this.ClientSize = new System.Drawing.Size(890, 604);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonClose);
-            this.Controls.Add(this.buttonSolve);
-            this.Controls.Add(this.outputDataControl1);
             this.Name = "MainForm";
             this.Text = "MainForm";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private OutputDataControl outputDataControl1;
-        private System.Windows.Forms.Button buttonSolve;
         private System.Windows.Forms.Button buttonClose;
-        private InputDataControl inputDataControl1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

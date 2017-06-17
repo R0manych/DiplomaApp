@@ -34,3 +34,5 @@ D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.dl
 D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.pdb
 D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\bin\Debug\TaskUtilsLib.dll
 D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\bin\Debug\TaskUtilsLib.pdb
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\TaskUtilsLib.dll
+D:\Projects\GitProjects\DiplomaApp\MathLibUnitTest\bin\Debug\TaskUtilsLib.pdb
