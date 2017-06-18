@@ -135,7 +135,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Images\ffox2aJy57E.jpg" />
+    <Content Include="Images\HOENq8WQEQs.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

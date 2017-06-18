@@ -40,9 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataReaders\Input\DoubleDataReader.cs" />
-    <Compile Include="DataReaders\Input\InputReader.cs" />
-    <Compile Include="DataReaders\Input\IntDataReader.cs" />
     <Compile Include="DataStructures\InputData.cs" />
     <Compile Include="DataStructures\OutputData.cs" />
     <Compile Include="DataStructures\SolutionData.cs" />

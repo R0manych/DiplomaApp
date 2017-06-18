@@ -63,9 +63,9 @@ namespace TDOA.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ffox2aJy57E {
+        internal static System.Drawing.Bitmap HOENq8WQEQs {
             get {
-                object obj = ResourceManager.GetObject("ffox2aJy57E", resourceCulture);
+                object obj = ResourceManager.GetObject("HOENq8WQEQs", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

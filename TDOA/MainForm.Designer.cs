@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.buttonClose = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -47,21 +46,10 @@
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(741, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 42);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Обозначения";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(741, 60);
+            this.button2.Location = new System.Drawing.Point(741, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 42);
             this.button2.TabIndex = 6;
@@ -72,7 +60,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(741, 108);
+            this.button3.Location = new System.Drawing.Point(741, 60);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(137, 42);
             this.button3.TabIndex = 7;
@@ -82,7 +70,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::TDOA.Properties.Resources.ffox2aJy57E;
+            this.pictureBox1.Image = Properties.Resources.HOENq8WQEQs;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(723, 532);
@@ -97,7 +85,6 @@
             this.ClientSize = new System.Drawing.Size(890, 604);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonClose);
             this.Name = "MainForm";
@@ -110,7 +97,6 @@
         #endregion
         private System.Windows.Forms.Button buttonClose;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
     }
