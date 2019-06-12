@@ -4,3 +4,7 @@
 MathLibUnitTest/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 *.cache
 DiplomaApp/obj/Debug/CoreCompileInputs.cache
+.vs/DiplomaApp/v15/Server/sqlite3/storage.ide-wal
+.vs/DiplomaApp/v15/Server/sqlite3/storage.ide-shm
+.vs/DiplomaApp/v15/Server/sqlite3/storage.ide
+.vs/DiplomaApp/v15/Server/sqlite3/db.lock
