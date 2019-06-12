@@ -38,7 +38,6 @@ namespace TaskUtilsLib.Services
             SolutionData = new SolutionData<double>(x2, x3, y2, y3, k2, k3);
         }
 
-
         public OutputData<double> Solve()
         {
             //Заполнение матрицы A

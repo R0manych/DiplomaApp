@@ -22,3 +22,6 @@ D:\Roman\GitHub\DiplomaApp\MathLib\obj\Debug\MathLib.pdb
 >>>>>>> origin/master
 D:\Projects\GitProjects\DiplomaApp\MathLib\bin\Debug\MathNet.Numerics.dll
 D:\Projects\GitProjects\DiplomaApp\MathLib\bin\Debug\MathNet.Numerics.xml
+D:\Projects\Git Projects\DiplomaApp\MathLib\obj\Debug\MathLib.csprojAssemblyReference.cache
+D:\Projects\Git Projects\DiplomaApp\MathLib\obj\Debug\MathLib.csproj.CoreCompileInputs.cache
+D:\Projects\Git Projects\DiplomaApp\MathLib\obj\Debug\MathLib.csproj.CopyComplete

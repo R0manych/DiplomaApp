@@ -68,7 +68,34 @@ namespace TDOA
                 _solutionService = new SolutionService(_inputData);
                 var outputdata = _solutionService.Solve();
                 var outputForm = new OutputForm(outputdata);
-                outputForm.Show();                
+                outputForm.Show();
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (!IsDataSet)
+            {
+                MessageBox.Show("Не введены данные");
+            }
+            else
+            {
+                var inputForm = new InputTaylorForm();
+
+                inputForm.ShowDialog(this);
+
+                if (inputForm.IsSaved)
+                {
+                    var inputTeylorData = new InputDataTeylor<double>(_inputData, inputForm.D, inputForm.Xn, inputForm.Yn);
+                    var solutiontayleService = new SolutionTaylorService(inputTeylorData);
+                    var outputdata = solutiontayleService.Solve();
+                    var outputForm = new OutputForm(outputdata);
+                    outputForm.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Не введены данные");
+                }
             }
         }
     }

@@ -9,6 +9,6 @@ namespace TaskUtilsLib.Services.Interfaces
 {
     public interface ISolutionService<T>
     {
-       OutputData<double> Solve();        
+       OutputData<double> Solve();
     }
 }

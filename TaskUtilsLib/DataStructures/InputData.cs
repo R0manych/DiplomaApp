@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaskUtilsLib.DataStructures
 {
-    public struct InputData<T>
+    public class InputData<T>
     {
         public readonly T X1;
         public readonly T X2;
@@ -31,6 +31,6 @@ namespace TaskUtilsLib.DataStructures
 
             this.M2_1 = M2_1;
             this.M3_1 = M3_1;
-        }           
+        }
     }
 }

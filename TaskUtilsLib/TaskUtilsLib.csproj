@@ -41,11 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataStructures\InputData.cs" />
+    <Compile Include="DataStructures\InputDataTeylor.cs" />
     <Compile Include="DataStructures\OutputData.cs" />
     <Compile Include="DataStructures\SolutionData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Interfaces\ISolutionService.cs" />
     <Compile Include="Services\SolutionService.cs" />
+    <Compile Include="Services\SolutionTaylorService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MathLib\MathLib.csproj">

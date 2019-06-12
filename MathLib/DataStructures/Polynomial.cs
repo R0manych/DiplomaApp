@@ -21,7 +21,7 @@ namespace MathLib.DataStructures
 
         public T C { get; set; } //свободный член
 
-        private MathProviders.MathProvider<T> _mathProvider;
+        private MathProvider<T> _mathProvider;
 
         public Result<T> Result = new Result<T>();
 

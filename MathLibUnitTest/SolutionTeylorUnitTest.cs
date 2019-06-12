@@ -10,18 +10,15 @@ using TaskUtilsLib.Services;
 namespace MathLibUnitTest
 {
     [TestClass]
-    public class SolutionUnitTest
+    public class SolutionTeylorUnitTest
     {
         [TestMethod]
         public void SolutionTest()
         {
-            var input = new InputData<double>(
-                4, 5, 10, 9, 2, 6, 0.518, 0.394);
-            var solutionService = new SolutionService(input);
+            var input = new InputDataTeylor<double>(
+                4, 8, 6, 6, 9, 2, 2.23, 0.76, 0.05, 9, 10);
+            var solutionService = new SolutionTaylorService(input);
             var output = solutionService.Solve();
-            Assert.AreEqual(4, output.X);
-            Assert.AreEqual(5, output.Y);
-            Assert.AreEqual(3.16, output.R1);
         }
     }
 }
