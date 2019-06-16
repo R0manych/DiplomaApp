@@ -16,7 +16,7 @@ namespace MathLibUnitTest
         public void SolutionTest()
         {
             var input = new InputData<double>(
-                4, 5, 10, 9, 2, 6, 0.518, 0.394);
+                3, 3, 5, 3, 1, 1, 1.394448725, 0.51755435);
             var solutionService = new SolutionService(input);
             var output = solutionService.Solve();
             Assert.AreEqual(4, output.X);

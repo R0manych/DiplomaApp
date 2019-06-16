@@ -5,7 +5,6 @@ D:\Roman\GitHub\DiplomaApp\TDOA\bin\Debug\TaskUtilsLib.dll
 D:\Roman\GitHub\DiplomaApp\TDOA\bin\Debug\MathLib.dll
 D:\Roman\GitHub\DiplomaApp\TDOA\bin\Debug\TaskUtilsLib.pdb
 D:\Roman\GitHub\DiplomaApp\TDOA\bin\Debug\MathLib.pdb
-D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.csprojResolveAssemblyReference.cache
 D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.InputDataControl.resources
 D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.MainForm.resources
 D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.OutputDataControl.resources
@@ -53,3 +52,11 @@ D:\Projects\Git Projects\DiplomaApp\TDOA\obj\Debug\TDOA.exe
 D:\Projects\Git Projects\DiplomaApp\TDOA\obj\Debug\TDOA.pdb
 D:\Projects\Git Projects\DiplomaApp\TDOA\obj\Debug\TDOA.InputTaylorForm.resources
 D:\Projects\Git Projects\DiplomaApp\TDOA\obj\Debug\TDOA.TeylorInputControl.resources
+D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.csprojAssemblyReference.cache
+D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.DetailsForm.resources
+D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.InputForm.resources
+D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.InputTaylorForm.resources
+D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.OutputForm.resources
+D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.TeylorInputControl.resources
+D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.csproj.CoreCompileInputs.cache
+D:\Roman\GitHub\DiplomaApp\TDOA\obj\Debug\TDOA.csproj.CopyComplete

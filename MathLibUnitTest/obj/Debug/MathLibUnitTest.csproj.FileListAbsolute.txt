@@ -38,3 +38,26 @@ D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.cs
 D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.csproj.CopyComplete
 D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.dll
 D:\Projects\Git Projects\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.pdb
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\MathLibUnitTest.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\MathLibUnitTest.pdb
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\MathLib.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\TaskUtilsLib.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\MathLib.pdb
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\TaskUtilsLib.pdb
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.csprojAssemblyReference.cache
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.csproj.CoreCompileInputs.cache
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.csproj.CopyComplete
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\obj\Debug\MathLibUnitTest.pdb
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\NLog.dll
+D:\Roman\GitHub\DiplomaApp\MathLibUnitTest\bin\Debug\NLog.xml
