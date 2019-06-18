@@ -21,7 +21,6 @@ namespace TDOA
         {
             textBoxX.Text = outputData.X.ToString();
             textBoxY.Text = outputData.Y.ToString();
-            textBoxR1.Text = outputData.R1.ToString();
         }
     }
 }

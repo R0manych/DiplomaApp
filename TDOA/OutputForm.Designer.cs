@@ -35,14 +35,14 @@
             // 
             this.outputDataControl1.Location = new System.Drawing.Point(12, 12);
             this.outputDataControl1.Name = "outputDataControl1";
-            this.outputDataControl1.Size = new System.Drawing.Size(346, 160);
+            this.outputDataControl1.Size = new System.Drawing.Size(343, 90);
             this.outputDataControl1.TabIndex = 0;
             // 
             // OutputForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(405, 188);
+            this.ClientSize = new System.Drawing.Size(364, 102);
             this.Controls.Add(this.outputDataControl1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
